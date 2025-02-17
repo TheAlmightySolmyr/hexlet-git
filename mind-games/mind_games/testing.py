@@ -1,3 +1,3 @@
-import site-packages.more_itertools
+from site-packages import more_itertools as mi
 x = [1,2,3,4,5,6,7,8]
-print(more_itertools.chunked(x,2))
+print(mi.chunked(x,2))
